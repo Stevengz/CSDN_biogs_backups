@@ -116,7 +116,7 @@ def download(account_id):
         unpack_dir = "./CSDN-" + account_id + '/'
         html_filename = title + ".html"
         parts_subdir = title
-        # 解压缩MHT文件的内容
+        # 解压缩MHT文件的内容，把需要的css、js等资源都进行下载
         success = mht.UnpackMHTString(mht_doc, unpack_dir, html_filename,
                                       parts_subdir)
         if (success != True):
