@@ -17,3 +17,8 @@
 3 生成Index.html方便对本地博客的浏览；
 
 4 完全免费，开源。
+
+
+## 博客
+
+写了一篇关于这个代码的博客，有兴趣可以看一下：https://blog.csdn.net/weixin_44613063/article/details/87093504
