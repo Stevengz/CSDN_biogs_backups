@@ -5,7 +5,7 @@
 
 用 Python3 和第三方库 chilkat 编写，chilkat 库需要额外下载，无法通过 pip 安装。
 
-使用时直接运行 blogs_backups.py，再输入博主的ID名称（不是用户名），等待下载完成。
+使用时直接运行 blogs_backups.py，再输入博主的ID名称（不是用户名，是链接中所包含的名称），等待下载完成。
 
 
 ## 功能
