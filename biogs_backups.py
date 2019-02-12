@@ -121,7 +121,6 @@ def download(account_id):
                                       parts_subdir)
         if (success != True):
             fout.write(line)
-            iter_count += 1
         else:
             print("成功下载：" + title)
     f.close()
@@ -135,7 +134,7 @@ def download(account_id):
         print("进行第 " + str(iter_count) + " 次迭代下载")
         os.remove(file_path)
         os.rename('Error.txt', file_path)
-        downloadBlogLists(account_id)
+        download(account_id)
 
 
 # 建立索引
