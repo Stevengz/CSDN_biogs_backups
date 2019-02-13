@@ -125,6 +125,7 @@ def download(account_id):
             print("成功下载：" + title)
     f.close()
     fout.close()
+    # 出现错误就尝试迭代
     if iter_count >= 5:
         print("一些博客没有下载成功, 请确认错误信息")
         os.remove(file_path)
